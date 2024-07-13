@@ -114,7 +114,7 @@ const Todo = () => {
             .then(() => {
                 const updatedTodos = todos.filter((todo) => todo._id !== id);
                 setTodos(updatedTodos);
-                setTask(task-1)
+                // setTask(task-1)
             })
             .catch((error) => {
                 console.error('API ERROR:', error);
